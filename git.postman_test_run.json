@@ -1,0 +1,115 @@
+{
+	"id": "1b677fc0-9114-4d37-80ec-41bb4c819349",
+	"name": "git",
+	"timestamp": "2024-01-11T14:09:08.484Z",
+	"collection_id": "27490793-48383e1a-10c3-4f0e-88ee-e7e442adf0cf",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-11T14:09:05.858Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bf3ee7d4-d447-4b1c-bd2c-9555691cb8b2",
+			"name": "Создание",
+			"url": "https://api.github.com/repos/Batradz-ch/diplom/issues",
+			"time": 1340,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1340
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "2ceb1f1b-c111-4af8-a63b-e1e6cdf037b1",
+			"name": "получение",
+			"url": "https://api.github.com/repos/Batradz-ch/diplom/issues/7",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3fbad8d2-9397-4ea7-85d0-cd2972174164",
+			"name": "Обновить",
+			"url": "https://api.github.com/repos/Batradz-ch/diplom/issues/7",
+			"time": 636,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				636
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2208,
+	"collection": {
+		"requests": [
+			{
+				"id": "bf3ee7d4-d447-4b1c-bd2c-9555691cb8b2",
+				"method": "POST"
+			},
+			{
+				"id": "2ceb1f1b-c111-4af8-a63b-e1e6cdf037b1",
+				"method": "GET"
+			},
+			{
+				"id": "3fbad8d2-9397-4ea7-85d0-cd2972174164",
+				"method": "PATCH"
+			}
+		]
+	}
+}
